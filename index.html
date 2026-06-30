@@ -4,33 +4,36 @@
 <title>Factoraje, Supply Chain & FactorTech — Diplomado | RiskMathics</title>
 <meta name="description" content="El primer y único diplomado integral de factoraje en español a nivel mundial. 200 horas · 23 módulos · 7 fases · 115 capstones. Certificación RMFI de dos niveles. Inicio Agosto 2026.">
 <style>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
  :root{
-   --ink:#0a1424;--ink2:#5a6577;--line:#e8ebf0;--bg:#ffffff;--soft:#f6f8fb;
-   --navy:#0a1f3c;--navy2:#12305c;--gold:#c8a04a;--gold2:#e3c578;
+   /* Identidad del folleto Factoraje: tinta navy + crema + latón/oro */
+   --ink:#101838;--ink2:#5e5a52;--line:#e2d9c8;--bg:#f0e8d8;--soft:#e8e0d0;
+   --navy:#101838;--navy2:#1840a8;--gold:#b88838;--gold2:#cba24a;
  }
  *{box-sizing:border-box;margin:0;padding:0}
  html{scroll-behavior:smooth}
- body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Inter','Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased;line-height:1.55;letter-spacing:-.01em}
+ body{font-family:'Playfair Display',Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased;line-height:1.55;letter-spacing:0}
+ h1,h2,.brand,.eyebrow,.lab,.nav a.cta,.btn,.stat .n,.price,.mod .dot,label,input,.note,.trust,footer{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
  .container{max-width:1080px;margin:0 auto;padding:0 28px}
  a{color:inherit;text-decoration:none}
- .nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(160%) blur(14px);background:rgba(255,255,255,.78);border-bottom:1px solid var(--line)}
+ .nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(160%) blur(14px);background:rgba(240,232,216,.82);border-bottom:1px solid var(--line)}
  .nav .container{display:flex;align-items:center;justify-content:space-between;height:60px}
  .brand{font-size:13px;font-weight:700;letter-spacing:.18em;color:var(--navy)}
  .nav a.cta{font-size:13px;font-weight:600;color:#fff;background:var(--navy);padding:9px 18px;border-radius:100px;transition:.25s}
  .nav a.cta:hover{background:var(--navy2);transform:translateY(-1px)}
- .hero{background:linear-gradient(155deg,#12305c 0%,#0a1f3c 45%,#070f1d 100%);color:#fff;position:relative;overflow:hidden}
+ .hero{background:linear-gradient(155deg,#1c2a52 0%,#101838 48%,#0a1024 100%);color:#fff;position:relative;overflow:hidden}
  .hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.65}
  .hero .container{padding-top:92px;padding-bottom:96px;position:relative}
  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.22em;color:var(--gold2);font-weight:600;text-transform:uppercase}
  .eyebrow:before{content:"";width:26px;height:1px;background:var(--gold)}
- h1{font-size:60px;line-height:1.02;font-weight:600;letter-spacing:-.03em;margin:22px 0 0;max-width:14ch}
+ h1{font-size:60px;line-height:1.02;font-weight:700;letter-spacing:-.025em;margin:22px 0 0;max-width:14ch}
  .hero p.dek{font-size:20px;color:#c2cee0;font-weight:400;margin-top:22px;max-width:46ch;line-height:1.5}
  .hero .meta{margin-top:34px;display:flex;gap:30px;flex-wrap:wrap;font-size:14px;color:#9fb1cc}
  .hero .meta b{color:#fff;font-weight:600}
  .hero .actions{margin-top:40px;display:flex;gap:14px;flex-wrap:wrap}
  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:15px;font-weight:600;padding:15px 30px;border-radius:100px;cursor:pointer;border:none;transition:.25s;letter-spacing:-.01em}
- .btn-gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#1a1404;box-shadow:0 8px 30px rgba(200,160,74,.32)}
- .btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 38px rgba(200,160,74,.42)}
+ .btn-gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#211807;box-shadow:0 8px 30px rgba(184,136,56,.34)}
+ .btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 38px rgba(184,136,56,.46)}
  .btn-ghost{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.2)}
  .btn-ghost:hover{background:rgba(255,255,255,.14)}
  .btn-dark{background:var(--navy);color:#fff}.btn-dark:hover{background:var(--navy2);transform:translateY(-2px)}
@@ -40,21 +43,21 @@
  .stat .l{font-size:13px;color:var(--ink2);margin-top:4px}
  section.block{padding:88px 0;border-bottom:1px solid var(--line)}
  .lab{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700}
- h2{font-size:34px;font-weight:600;letter-spacing:-.025em;margin:14px 0 0;max-width:20ch}
+ h2{font-size:34px;font-weight:700;letter-spacing:-.02em;margin:14px 0 0;max-width:20ch;color:var(--navy)}
  .intro{font-size:18px;color:#3b4556;max-width:62ch;margin-top:22px;line-height:1.65}
  .mods{margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
- .mod{border:1px solid var(--line);border-radius:16px;padding:22px 24px;background:#fff;transition:.3s;display:flex;gap:14px;align-items:flex-start}
- .mod:hover{border-color:#cdd6e4;box-shadow:0 14px 40px rgba(10,31,60,.08);transform:translateY(-3px)}
- .mod .dot{flex:none;width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#eef3fb,#dde7f6);display:flex;align-items:center;justify-content:center;color:var(--navy);font-weight:700;font-size:14px}
+ .mod{border:1px solid var(--line);border-radius:16px;padding:22px 24px;background:#fbf7ee;transition:.3s;display:flex;gap:14px;align-items:flex-start}
+ .mod:hover{border-color:var(--gold);box-shadow:0 14px 40px rgba(16,24,56,.10);transform:translateY(-3px)}
+ .mod .dot{flex:none;width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#101838,#1840a8);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:14px}
  .mod p{font-size:14.5px;color:#2c3950;line-height:1.5}
  .mod p b{color:var(--ink)}
  .split{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start}
- .card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:34px;box-shadow:0 30px 70px rgba(10,31,60,.07)}
+ .card{background:#fbf7ee;border:1px solid var(--line);border-radius:22px;padding:34px;box-shadow:0 30px 70px rgba(16,24,56,.09)}
  form{display:grid;gap:14px}
  .frow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
  label{font-size:12.5px;font-weight:600;color:#46526a;display:block;margin-bottom:6px;letter-spacing:.01em}
- input{width:100%;padding:13px 15px;border:1px solid #d8dee9;border-radius:12px;font-size:15px;font-family:inherit;transition:.2s;background:#fcfdff}
- input:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 4px rgba(18,48,92,.08);background:#fff}
+ input{width:100%;padding:13px 15px;border:1px solid #ddd2bf;border-radius:12px;font-size:15px;font-family:inherit;transition:.2s;background:#fffdf8}
+ input:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 4px rgba(184,136,56,.16);background:#fff}
  .note{font-size:12px;color:#8a94a6;margin-top:6px}
  .ok{background:linear-gradient(135deg,#f0fff7,#e7faf0);border:1px solid #b6ebcf;color:#0c6b3f;padding:22px;border-radius:18px;font-size:15px;line-height:1.5}
  .hidden{display:none}
